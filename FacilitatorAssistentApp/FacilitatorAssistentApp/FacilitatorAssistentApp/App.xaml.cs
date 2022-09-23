@@ -1,4 +1,5 @@
 ﻿using System;
+using FacilitatorAssistentApp.Views.AccessViews;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
@@ -10,7 +11,7 @@ namespace FacilitatorAssistentApp
         {
             InitializeComponent();
 
-            MainPage = new MainPage();
+            MainPage = new StartPage();
         }
 
         protected override void OnStart ()

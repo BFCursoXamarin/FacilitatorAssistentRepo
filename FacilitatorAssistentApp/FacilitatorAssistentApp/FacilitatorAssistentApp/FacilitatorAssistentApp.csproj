@@ -14,4 +14,20 @@
     <PackageReference Include="Xamarin.Forms" Version="5.0.0.2515" />
     <PackageReference Include="Xamarin.Essentials" Version="1.7.3" />
   </ItemGroup>
+  <ItemGroup>
+    <None Remove="Models\" />
+    <None Remove="Views\" />
+    <None Remove="ViewModels\" />
+    <None Remove="Views\AccessViews\" />
+    <None Remove="Views\ExtensionsViews\" />
+    <None Remove="Views\HomeViews\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Models\" />
+    <Folder Include="Views\" />
+    <Folder Include="ViewModels\" />
+    <Folder Include="Views\AccessViews\" />
+    <Folder Include="Views\ExtensionsViews\" />
+    <Folder Include="Views\HomeViews\" />
+  </ItemGroup>
 </Project>
