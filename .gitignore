@@ -1,0 +1,6 @@
+# Ignorar carpeta bin y obj de la solución .NET
+FacilitatorAssistentApp/FacilitatorAssistentApp/FacilitatorAssistentApp/bin
+FacilitatorAssistentApp/FacilitatorAssistentApp/FacilitatorAssistentApp/obj
+
+# Ignorar todos los archivos que terminen en .DS_Store
+*.DS_Store

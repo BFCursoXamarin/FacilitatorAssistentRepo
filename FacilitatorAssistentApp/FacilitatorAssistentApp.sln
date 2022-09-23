@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 25.0.1703.5
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FacilitatorAssistentApp.Android", "FacilitatorAssistentApp\FacilitatorAssistentApp.Android\FacilitatorAssistentApp.Android.csproj", "{3E8F78CB-6045-4214-B311-B542503E9C39}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FacilitatorAssistentApp", "FacilitatorAssistentApp\FacilitatorAssistentApp\FacilitatorAssistentApp.csproj", "{733BBDC7-EF19-47EF-82C5-DFD6CCB3598B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3E8F78CB-6045-4214-B311-B542503E9C39}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3E8F78CB-6045-4214-B311-B542503E9C39}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3E8F78CB-6045-4214-B311-B542503E9C39}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3E8F78CB-6045-4214-B311-B542503E9C39}.Release|Any CPU.Build.0 = Release|Any CPU
+		{733BBDC7-EF19-47EF-82C5-DFD6CCB3598B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{733BBDC7-EF19-47EF-82C5-DFD6CCB3598B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{733BBDC7-EF19-47EF-82C5-DFD6CCB3598B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{733BBDC7-EF19-47EF-82C5-DFD6CCB3598B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {30A2DCB6-F723-46A4-B4C0-6031EA4EBA2F}
+	EndGlobalSection
+EndGlobal
