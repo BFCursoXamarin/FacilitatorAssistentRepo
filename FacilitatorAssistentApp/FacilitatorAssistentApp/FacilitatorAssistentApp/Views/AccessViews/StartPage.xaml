@@ -5,9 +5,31 @@
     x:Class="FacilitatorAssistentApp.Views.AccessViews.StartPage">
     <ContentPage.Content>
         <StackLayout VerticalOptions="Center">
-             <Frame BackgroundColor="#DC4541" HorizontalOptions="Center" Margin="10,10" CornerRadius="10">
-                 <Label Text="Hola mundo" TextColor="#FFF"/>
-             </Frame>
+
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition/>
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                </Grid.RowDefinitions>
+                <StackLayout HorizontalOptions="Center" Grid.Column="0" Grid.Row="0" Margin="0,0,0,20">
+                    <Image Source="https://iddocente.com/wp-content/uploads/2019/04/idd_classdojo_paso_paso-840x400.jpg" HeightRequest="80" WidthRequest="80"/>
+                </StackLayout>
+
+                <StackLayout HorizontalOptions="Center" Grid.Column="0" Grid.Row="1" Margin="0,0,0,20">
+                    <Button Text="Iniciar Sesión"/>
+                </StackLayout>
+
+                <StackLayout HorizontalOptions="Center" Grid.Column="0" Grid.Row="2" Margin="0,0,0,20">
+                    <Image Source="" HeightRequest="80" WidthRequest="80"/>
+                </StackLayout>
+                
+            </Grid>
+
+             
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
