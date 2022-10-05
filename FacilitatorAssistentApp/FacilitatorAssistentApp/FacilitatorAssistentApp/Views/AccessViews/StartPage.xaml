@@ -11,22 +11,54 @@
                     <ColumnDefinition/>
                 </Grid.ColumnDefinitions>
                 <Grid.RowDefinitions>
-                    <RowDefinition/>
-                    <RowDefinition/>
-                    <RowDefinition/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="200"/>
+                    <RowDefinition Height="200"/>
+                    <RowDefinition Height="Auto"/>
                 </Grid.RowDefinitions>
+
                 <StackLayout HorizontalOptions="Center" Grid.Column="0" Grid.Row="0" Margin="0,0,0,20">
-                    <Image Source="https://iddocente.com/wp-content/uploads/2019/04/idd_classdojo_paso_paso-840x400.jpg" HeightRequest="80" WidthRequest="80"/>
+                    <Image Source="https://iddocente.com/wp-content/uploads/2019/04/idd_classdojo_paso_paso-840x400.jpg" HeightRequest="80" WidthRequest="300"/>
                 </StackLayout>
 
                 <StackLayout HorizontalOptions="Center" Grid.Column="0" Grid.Row="1" Margin="0,0,0,20">
-                    <Button Text="Iniciar Sesión"/>
+                    <Label Text="Welcome to"
+                           TextColor="WhiteSmoke"
+                           FontSize="16"
+                           FontAttributes="None"
+                           HorizontalOptions="Center"/>
+
+                    <Label Text="FacilitatorAssitent"
+                           TextColor="WhiteSmoke"
+                           FontSize="15"
+                           FontAttributes="None"
+                           HorizontalOptions="Center"/>
                 </StackLayout>
 
                 <StackLayout HorizontalOptions="Center" Grid.Column="0" Grid.Row="2" Margin="0,0,0,20">
-                    <Image Source="" HeightRequest="80" WidthRequest="80"/>
+                    <Frame CornerRadius="10" Padding="0,4,0,4" HasShadow="True">
+                        <Button Text="Register"
+                                TextColor="#333333"
+                                BackgroundColor="White"
+                                HeightRequest="35"
+                                WidthRequest="185"
+                                FontSize="10"
+                                Clicked="RegisterNav_Clicked"/>
+                    </Frame>
+                    <Frame CornerRadius="10" Padding="0,4,0,4" HasShadow="True">
+                        <Button Text="Do you have an account?"
+                                TextColor="#333333"
+                                BackgroundColor="White"
+                                HeightRequest="35"
+                                WidthRequest="185"
+                                FontSize="10" Clicked="LoginNav_Clicked"/>
+                    </Frame>
                 </StackLayout>
-                
+
+
+                <StackLayout HorizontalOptions="Center" Grid.Column="0" Grid.Row="3" Margin="0,0,0,20">
+                    <Label Text="FacilitatorAssistent" TextColor="WhiteSmoke"/>
+                </StackLayout>
             </Grid>
 
              

@@ -11,6 +11,15 @@ namespace FacilitatorAssistentApp.Views.AccessViews
         {
             InitializeComponent();
         }
+
+        private void RegisterNav_Clicked(System.Object sender, System.EventArgs e)
+        {
+            Navigation.PushAsync(new RegisterPage());
+        }
+        private void LoginNav_Clicked(System.Object sender, System.EventArgs e)
+        {
+            Navigation.PushAsync(new LoginPage());
+        }
     }
 }
 
