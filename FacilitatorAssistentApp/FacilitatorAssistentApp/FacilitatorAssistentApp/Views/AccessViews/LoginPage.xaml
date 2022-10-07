@@ -30,12 +30,22 @@
 
                     <Frame BorderColor="PaleVioletRed" CornerRadius="10" HeightRequest="45" Padding="5" Margin="0,10">
 
-                        <Entry Placeholder="Username or email" BackgroundColor="White" PlaceholderColor="#cecece" Keyboard="Email"/>
+                        <Entry Placeholder="Username or email"
+                               BackgroundColor="White"
+                               PlaceholderColor="#cecece"
+                               TextColor="#333333"
+                               Keyboard="Email"
+                               Text="{Binding userText, Mode=TwoWay}"/>
 
                     </Frame>
                     <Frame BorderColor="PaleVioletRed" CornerRadius="10" HeightRequest="45" Padding="5" Margin="0,10">
 
-                        <Entry Placeholder="Password" BackgroundColor="White" PlaceholderColor="#cecece" IsPassword="True"/>
+                        <Entry Placeholder="Password"
+                               BackgroundColor="White"
+                               PlaceholderColor="#cecece"
+                               TextColor="#333333"
+                               IsPassword="True"
+                               Text="{Binding pwdText, Mode=TwoWay}"/>
 
                     </Frame>
                 
@@ -50,7 +60,7 @@
 
                 <StackLayout VerticalOptions="CenterAndExpand" Grid.Column="0" Grid.Row="3">
 
-                    <ActivityIndicator Color="Aqua"  IsRunning="True" VerticalOptions="CenterAndExpand" HorizontalOptions="Fill"/>
+                    <ActivityIndicator x:Name="indicatorLoading" Color="Aqua"  IsRunning="{Binding isVisible}" VerticalOptions="CenterAndExpand" HorizontalOptions="Fill"/>
 
                 </StackLayout>
 
@@ -64,7 +74,7 @@
                                 HeightRequest="40"
                                 WidthRequest="180"
                                 FontSize="15"
-                                Clicked="ConfirmEvent_Clicked"/>
+                                Command="{Binding LoginCommad}"/>
 
                     </Frame>
 
@@ -75,7 +85,11 @@
                     <Label>
                         <Label.FormattedText>
                             <FormattedString>
-                                <Span Text="New account?" TextColor="WhiteSmoke" TextDecorations="Underline" />
+                                <Span Text="New account?" TextColor="WhiteSmoke" TextDecorations="Underline">
+                                    <Span.GestureRecognizers>
+                                        <TapGestureRecognizer Command="{Binding goRegisterPageCommand}"/>
+                                    </Span.GestureRecognizers>
+                                </Span>
                             </FormattedString>
                         </Label.FormattedText>
                     </Label>
