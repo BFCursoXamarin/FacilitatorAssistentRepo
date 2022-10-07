@@ -9,7 +9,13 @@ namespace FacilitatorAssistentApp.Views.AccessViews
     {
         public LoginPage()
         {
+
             InitializeComponent();
+        }
+
+        private void ConfirmEvent_Clicked(System.Object sender, System.EventArgs e)
+        {
+
         }
     }
 }

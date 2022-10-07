@@ -11,6 +11,16 @@ namespace FacilitatorAssistentApp.Views.AccessViews
         {
             InitializeComponent();
         }
+
+        private void ConfirmEvent_Clicked(System.Object sender, System.EventArgs e)
+        {
+            Navigation.PushAsync(new LoginPage());
+        }
+        
+        private void goBack_Clicked(System.Object sender, System.EventArgs e)
+        {
+            Navigation.PopAsync();
+        }
     }
 }
 

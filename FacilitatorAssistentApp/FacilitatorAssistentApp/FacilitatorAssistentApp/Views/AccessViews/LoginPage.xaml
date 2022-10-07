@@ -2,9 +2,88 @@
 <ContentPage
     xmlns="http://xamarin.com/schemas/2014/forms"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-    x:Class="FacilitatorAssistentApp.Views.AccessViews.LoginPage">
+    x:Class="FacilitatorAssistentApp.Views.AccessViews.LoginPage"
+    Title="Login">
     <ContentPage.Content>
+        <StackLayout HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" Margin="20,0" >
 
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition />
+                </Grid.ColumnDefinitions>
+
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="85" />
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                </Grid.RowDefinitions>
+
+                <StackLayout VerticalOptions="CenterAndExpand" Grid.Column="0" Grid.Row="0">
+
+                    <Label Text="Welcome" FontSize="Title" TextColor="Turquoise"/>
+                </StackLayout>
+
+                <StackLayout VerticalOptions="CenterAndExpand" Grid.Column="0" Grid.Row="1" Margin="20,0">
+
+                    <Frame BorderColor="PaleVioletRed" CornerRadius="10" HeightRequest="45" Padding="5" Margin="0,10">
+
+                        <Entry Placeholder="Username or email" BackgroundColor="White" PlaceholderColor="#cecece" Keyboard="Email"/>
+
+                    </Frame>
+                    <Frame BorderColor="PaleVioletRed" CornerRadius="10" HeightRequest="45" Padding="5" Margin="0,10">
+
+                        <Entry Placeholder="Password" BackgroundColor="White" PlaceholderColor="#cecece" IsPassword="True"/>
+
+                    </Frame>
+                
+                </StackLayout> 
+
+                <StackLayout Orientation="Horizontal" VerticalOptions="Center" HorizontalOptions="StartAndExpand" Grid.Column="0" Grid.Row="2" Margin="20">
+
+                    <Switch OnColor="Aquamarine" IsToggled="True"/>
+                    <Label Text="Remeber me" TextColor="WhiteSmoke" FontSize="16" Margin="10,0"/>
+
+                </StackLayout>
+
+                <StackLayout VerticalOptions="CenterAndExpand" Grid.Column="0" Grid.Row="3">
+
+                    <ActivityIndicator Color="Aqua"  IsRunning="True" VerticalOptions="CenterAndExpand" HorizontalOptions="Fill"/>
+
+                </StackLayout>
+
+                <StackLayout VerticalOptions="Center" HorizontalOptions="Center" Grid.Column="0" Grid.Row="4">
+
+                    <Frame Padding="0,4" CornerRadius="10" HasShadow="True">
+
+                        <Button Text="Confirm"
+                                BackgroundColor="White"
+                                TextColor="#333333"
+                                HeightRequest="40"
+                                WidthRequest="180"
+                                FontSize="15"
+                                Clicked="ConfirmEvent_Clicked"/>
+
+                    </Frame>
+
+                </StackLayout>
+
+                <StackLayout VerticalOptions="Center" HorizontalOptions="Center" Grid.Column="0" Grid.Row="5" Margin="0,20">
+
+                    <Label>
+                        <Label.FormattedText>
+                            <FormattedString>
+                                <Span Text="New account?" TextColor="WhiteSmoke" TextDecorations="Underline" />
+                            </FormattedString>
+                        </Label.FormattedText>
+                    </Label>
+
+                </StackLayout>
+            </Grid>
+
+        </StackLayout>
     </ContentPage.Content>
 </ContentPage>
 

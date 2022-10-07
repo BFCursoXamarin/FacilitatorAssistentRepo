@@ -2,9 +2,141 @@
 <ContentPage
     xmlns="http://xamarin.com/schemas/2014/forms"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-    x:Class="FacilitatorAssistentApp.Views.AccessViews.RegisterPage">
+    x:Class="FacilitatorAssistentApp.Views.AccessViews.RegisterPage"
+    Title="RegisterPage">
     <ContentPage.Content>
+        <StackLayout HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" Margin="20,0" >
 
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition />
+                </Grid.ColumnDefinitions>
+
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="85" />
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                </Grid.RowDefinitions>
+
+                <StackLayout VerticalOptions="CenterAndExpand" Grid.Column="0" Grid.Row="0">
+                    <Label Text="Register now" FontSize="Title" TextColor="Turquoise"/>
+
+                </StackLayout>
+
+                <StackLayout VerticalOptions="CenterAndExpand" Grid.Column="0" Grid.Row="1" Margin="20,0">
+
+                    <Frame BorderColor="PaleVioletRed" CornerRadius="10" HeightRequest="45" Padding="5">
+
+                        <Entry Placeholder="Username" BackgroundColor="White" PlaceholderColor="#cecece" Keyboard="Email"/>
+
+                    </Frame>
+                    <Frame BorderColor="PaleVioletRed" CornerRadius="10" HeightRequest="45" Padding="5">
+
+                        <Entry Placeholder="Email" BackgroundColor="White" PlaceholderColor="#cecece" Keyboard="Email"/>
+
+                    </Frame>
+                    <Frame BorderColor="PaleVioletRed" CornerRadius="10" HeightRequest="45" Padding="5">
+
+                        <Entry Placeholder="Password" BackgroundColor="White" PlaceholderColor="#cecece" IsPassword="True"/>
+
+                    </Frame>
+
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="*"/>
+                        </Grid.ColumnDefinitions>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="auto" />
+                            <RowDefinition Height="auto" />
+                        </Grid.RowDefinitions>
+
+
+                        <Frame BorderColor="PaleVioletRed" CornerRadius="10" HeightRequest="45" Padding="5" Grid.Column="0" Grid.Row="0">
+
+                            <Entry Placeholder="First name" BackgroundColor="White" PlaceholderColor="#cecece"/>
+
+                        </Frame>
+                        <Frame BorderColor="PaleVioletRed" CornerRadius="10" HeightRequest="45" Padding="5" Grid.Column="1" Grid.Row="0">
+
+                            <Entry Placeholder="Last name" BackgroundColor="White" PlaceholderColor="#cecece"/>
+
+                        </Frame>
+
+                        <Frame BorderColor="PaleVioletRed" CornerRadius="10" HeightRequest="45" Padding="5" Grid.Column="0" Grid.Row="1">
+
+                            <Entry Placeholder="Age" BackgroundColor="White" PlaceholderColor="#cecece" Keyboard="Numeric"/>
+
+                        </Frame>
+                        <Frame BorderColor="PaleVioletRed" CornerRadius="10" HeightRequest="45" Padding="5" Grid.Column="1" Grid.Row="1">
+                                    
+                            <Picker Title="Country"
+                                    FontSize="16"
+                                    TitleColor="#cecece"
+                                    TextColor="#cecece"
+                                    HorizontalOptions="Center">
+
+                                <Picker.ItemsSource>
+
+                                    <x:Array Type="{x:Type x:String}">
+
+                                        <x:String> Colombia</x:String>
+                                        <x:String> Japan</x:String>
+                                        <x:String> Mexico</x:String>
+                                        <x:String> USA</x:String>
+
+                                    </x:Array>
+
+                                </Picker.ItemsSource>
+
+                            </Picker>
+
+                        </Frame>
+                    </Grid>
+                
+                </StackLayout> 
+
+
+                <StackLayout VerticalOptions="CenterAndExpand" Grid.Column="0" Grid.Row="2">
+
+                    <ActivityIndicator Color="Aqua"  IsRunning="True" VerticalOptions="CenterAndExpand" HorizontalOptions="Fill"/>
+
+                </StackLayout>
+
+                <StackLayout VerticalOptions="Center" HorizontalOptions="Center" Grid.Column="0" Grid.Row="3">
+
+
+                    <Frame Padding="0,4" CornerRadius="10" HasShadow="True">
+
+                        <Button Text="Confirm"
+                                BackgroundColor="White"
+                                TextColor="#333333"
+                                HeightRequest="40"
+                                WidthRequest="180"
+                                FontSize="15"
+                                Clicked="ConfirmEvent_Clicked"/>
+
+                    </Frame>
+
+                    <Frame Padding="0,4" CornerRadius="10" HasShadow="True">
+
+                        <Button Text="Go back"
+                                BackgroundColor="White"
+                                TextColor="#333333"
+                                HeightRequest="40"
+                                WidthRequest="180"
+                                FontSize="15"
+                                Clicked="goBack_Clicked"/>
+
+                    </Frame>
+
+
+                </StackLayout>
+
+            </Grid>
+
+        </StackLayout>
     </ContentPage.Content>
 </ContentPage>
 
