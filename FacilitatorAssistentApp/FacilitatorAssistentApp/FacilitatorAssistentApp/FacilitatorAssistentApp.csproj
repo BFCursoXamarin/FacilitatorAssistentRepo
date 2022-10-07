@@ -13,6 +13,7 @@
   <ItemGroup>
     <PackageReference Include="Xamarin.Forms" Version="5.0.0.2515" />
     <PackageReference Include="Xamarin.Essentials" Version="1.7.3" />
+    <PackageReference Include="MvvmLightLibs" Version="5.4.1.1" />
   </ItemGroup>
   <ItemGroup>
     <None Remove="Models\" />
@@ -21,6 +22,7 @@
     <None Remove="Views\AccessViews\" />
     <None Remove="Views\ExtensionsViews\" />
     <None Remove="Views\HomeViews\" />
+    <None Remove="MvvmLightLibs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Models\" />
