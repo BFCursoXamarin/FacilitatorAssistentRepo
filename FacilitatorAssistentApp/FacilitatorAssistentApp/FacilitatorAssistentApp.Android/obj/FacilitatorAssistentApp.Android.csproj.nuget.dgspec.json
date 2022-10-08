@@ -1,21 +1,21 @@
 {
   "format": 1,
   "restore": {
-    "/Users/guadalupecastillo/Documents/DotnetSolutions/FacilitatorAssistentRepo/FacilitatorAssistentApp/FacilitatorAssistentApp/FacilitatorAssistentApp.Android/FacilitatorAssistentApp.Android.csproj": {}
+    "/Users/castillo/SolucionesXamarin/FacilitatorAssistentRepo/FacilitatorAssistentApp/FacilitatorAssistentApp/FacilitatorAssistentApp.Android/FacilitatorAssistentApp.Android.csproj": {}
   },
   "projects": {
-    "/Users/guadalupecastillo/Documents/DotnetSolutions/FacilitatorAssistentRepo/FacilitatorAssistentApp/FacilitatorAssistentApp/FacilitatorAssistentApp.Android/FacilitatorAssistentApp.Android.csproj": {
+    "/Users/castillo/SolucionesXamarin/FacilitatorAssistentRepo/FacilitatorAssistentApp/FacilitatorAssistentApp/FacilitatorAssistentApp.Android/FacilitatorAssistentApp.Android.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/guadalupecastillo/Documents/DotnetSolutions/FacilitatorAssistentRepo/FacilitatorAssistentApp/FacilitatorAssistentApp/FacilitatorAssistentApp.Android/FacilitatorAssistentApp.Android.csproj",
+        "projectUniqueName": "/Users/castillo/SolucionesXamarin/FacilitatorAssistentRepo/FacilitatorAssistentApp/FacilitatorAssistentApp/FacilitatorAssistentApp.Android/FacilitatorAssistentApp.Android.csproj",
         "projectName": "FacilitatorAssistentApp.Android",
-        "projectPath": "/Users/guadalupecastillo/Documents/DotnetSolutions/FacilitatorAssistentRepo/FacilitatorAssistentApp/FacilitatorAssistentApp/FacilitatorAssistentApp.Android/FacilitatorAssistentApp.Android.csproj",
-        "packagesPath": "/Users/guadalupecastillo/.nuget/packages/",
-        "outputPath": "/Users/guadalupecastillo/Documents/DotnetSolutions/FacilitatorAssistentRepo/FacilitatorAssistentApp/FacilitatorAssistentApp/FacilitatorAssistentApp.Android/obj/",
+        "projectPath": "/Users/castillo/SolucionesXamarin/FacilitatorAssistentRepo/FacilitatorAssistentApp/FacilitatorAssistentApp/FacilitatorAssistentApp.Android/FacilitatorAssistentApp.Android.csproj",
+        "packagesPath": "/Users/castillo/.nuget/packages/",
+        "outputPath": "/Users/castillo/SolucionesXamarin/FacilitatorAssistentRepo/FacilitatorAssistentApp/FacilitatorAssistentApp/FacilitatorAssistentApp.Android/obj/",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "configFilePaths": [
-          "/Users/guadalupecastillo/.config/NuGet/NuGet.Config"
+          "/Users/castillo/.config/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "monoandroid12.0"
@@ -26,8 +26,8 @@
         "frameworks": {
           "monoandroid12.0": {
             "projectReferences": {
-              "/Users/guadalupecastillo/Documents/DotnetSolutions/FacilitatorAssistentRepo/FacilitatorAssistentApp/FacilitatorAssistentApp/FacilitatorAssistentApp/FacilitatorAssistentApp.csproj": {
-                "projectPath": "/Users/guadalupecastillo/Documents/DotnetSolutions/FacilitatorAssistentRepo/FacilitatorAssistentApp/FacilitatorAssistentApp/FacilitatorAssistentApp/FacilitatorAssistentApp.csproj"
+              "/Users/castillo/SolucionesXamarin/FacilitatorAssistentRepo/FacilitatorAssistentApp/FacilitatorAssistentApp/FacilitatorAssistentApp/FacilitatorAssistentApp.csproj": {
+                "projectPath": "/Users/castillo/SolucionesXamarin/FacilitatorAssistentRepo/FacilitatorAssistentApp/FacilitatorAssistentApp/FacilitatorAssistentApp/FacilitatorAssistentApp.csproj"
               }
             }
           }
@@ -36,6 +36,10 @@
       "frameworks": {
         "monoandroid12.0": {
           "dependencies": {
+            "MvvmLightLibs": {
+              "target": "Package",
+              "version": "[5.4.1.1, )"
+            },
             "Xamarin.Essentials": {
               "target": "Package",
               "version": "[1.7.3, )"
@@ -48,17 +52,17 @@
         }
       }
     },
-    "/Users/guadalupecastillo/Documents/DotnetSolutions/FacilitatorAssistentRepo/FacilitatorAssistentApp/FacilitatorAssistentApp/FacilitatorAssistentApp/FacilitatorAssistentApp.csproj": {
+    "/Users/castillo/SolucionesXamarin/FacilitatorAssistentRepo/FacilitatorAssistentApp/FacilitatorAssistentApp/FacilitatorAssistentApp/FacilitatorAssistentApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/guadalupecastillo/Documents/DotnetSolutions/FacilitatorAssistentRepo/FacilitatorAssistentApp/FacilitatorAssistentApp/FacilitatorAssistentApp/FacilitatorAssistentApp.csproj",
+        "projectUniqueName": "/Users/castillo/SolucionesXamarin/FacilitatorAssistentRepo/FacilitatorAssistentApp/FacilitatorAssistentApp/FacilitatorAssistentApp/FacilitatorAssistentApp.csproj",
         "projectName": "FacilitatorAssistentApp",
-        "projectPath": "/Users/guadalupecastillo/Documents/DotnetSolutions/FacilitatorAssistentRepo/FacilitatorAssistentApp/FacilitatorAssistentApp/FacilitatorAssistentApp/FacilitatorAssistentApp.csproj",
-        "packagesPath": "/Users/guadalupecastillo/.nuget/packages/",
-        "outputPath": "/Users/guadalupecastillo/Documents/DotnetSolutions/FacilitatorAssistentRepo/FacilitatorAssistentApp/FacilitatorAssistentApp/FacilitatorAssistentApp/obj/",
+        "projectPath": "/Users/castillo/SolucionesXamarin/FacilitatorAssistentRepo/FacilitatorAssistentApp/FacilitatorAssistentApp/FacilitatorAssistentApp/FacilitatorAssistentApp.csproj",
+        "packagesPath": "/Users/castillo/.nuget/packages/",
+        "outputPath": "/Users/castillo/SolucionesXamarin/FacilitatorAssistentRepo/FacilitatorAssistentApp/FacilitatorAssistentApp/FacilitatorAssistentApp/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/guadalupecastillo/.config/NuGet/NuGet.Config"
+          "/Users/castillo/.config/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netstandard2.0"
@@ -82,6 +86,10 @@
         "netstandard2.0": {
           "targetAlias": "netstandard2.0",
           "dependencies": {
+            "MvvmLightLibs": {
+              "target": "Package",
+              "version": "[5.4.1.1, )"
+            },
             "NETStandard.Library": {
               "suppressParent": "All",
               "target": "Package",

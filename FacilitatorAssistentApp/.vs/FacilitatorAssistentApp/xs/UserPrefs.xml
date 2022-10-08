@@ -1,19 +1,23 @@
 ﻿<Properties StartupConfiguration="{3E8F78CB-6045-4214-B311-B542503E9C39}|Default">
-  <MonoDevelop.Ide.ItemProperties.FacilitatorAssistentApp FirstBuild="True" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <Xamarin.Addins.Core.Project ActiveDebugTarget="Android.SelectDevice" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="FacilitatorAssistentApp/FacilitatorAssistentApp/App.xaml.cs">
+  <MonoDevelop.Ide.ItemProperties.FacilitatorAssistentApp.Android PreferredExecutionTarget="Android.Pixel_3a_XL_API_26" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="FacilitatorAssistentApp/FacilitatorAssistentApp/Views/AccessViews/LoginPage.xaml">
     <Files>
-      <File FileName="FacilitatorAssistentApp/FacilitatorAssistentApp/App.xaml" Line="9" Column="1" />
-      <File FileName="FacilitatorAssistentApp/FacilitatorAssistentApp/App.xaml.cs" Line="1" Column="1" />
+      <File FileName="FacilitatorAssistentApp/FacilitatorAssistentApp/Views/AccessViews/LoginPage.xaml" Line="9" Column="1" />
+      <File FileName="FacilitatorAssistentApp/FacilitatorAssistentApp/Views/AccessViews/LoginPage.xaml.cs" Line="21" Column="1" />
+      <File FileName="FacilitatorAssistentApp/FacilitatorAssistentApp/ViewModels/LoginViewModel.cs" Line="14" Column="33" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="FacilitatorAssistentApp" expanded="True">
-            <Node name="FacilitatorAssistentApp" expanded="True" />
-            <Node name="FacilitatorAssistentApp.Android" expanded="True">
-              <Node name="Packages" expanded="True" />
+            <Node name="FacilitatorAssistentApp" expanded="True">
+              <Node name="ViewModels" expanded="True" />
+              <Node name="Views" expanded="True">
+                <Node name="AccessViews" expanded="True">
+                  <Node name="LoginPage.xaml" expanded="True" />
+                </Node>
+              </Node>
             </Node>
           </Node>
         </State>
@@ -23,10 +27,11 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.ItemProperties.FacilitatorAssistentApp.Android PreferredExecutionTarget="Android.SelectDevice" FirstBuild="True" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MultiItemStartupConfigurations />
+  <Xamarin.Addins.Core.Project ActiveDebugTarget="Android.Pixel_3a_XL_API_26" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.MonoDroid LastDeploySdkVersion="13.0.0.0" />
 </Properties>

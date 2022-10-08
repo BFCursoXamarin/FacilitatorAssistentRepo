@@ -2,5 +2,12 @@
 FacilitatorAssistentApp/FacilitatorAssistentApp/FacilitatorAssistentApp/bin
 FacilitatorAssistentApp/FacilitatorAssistentApp/FacilitatorAssistentApp/obj
 
+# Ignorar carpeta bin y obj solución .Android
+FacilitatorAssistentApp/FacilitatorAssistentApp/FacilitatorAssistentApp.Android/obj
+FacilitatorAssistentApp/FacilitatorAssistentApp/FacilitatorAssistentApp.Android/bin
+
+#Ignorar carpeta .vs (Team Fundation)
+FacilitatorAssistentRepo/FacilitatorAssistentApp/.vs
+
 # Ignorar todos los archivos que terminen en .DS_Store
 *.DS_Store
