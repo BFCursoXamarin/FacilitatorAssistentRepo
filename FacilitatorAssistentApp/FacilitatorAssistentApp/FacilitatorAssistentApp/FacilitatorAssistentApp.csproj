@@ -14,6 +14,7 @@
     <PackageReference Include="Xamarin.Forms" Version="5.0.0.2515" />
     <PackageReference Include="Xamarin.Essentials" Version="1.7.3" />
     <PackageReference Include="MvvmLightLibs" Version="5.4.1.1" />
+    <PackageReference Include="sqlite-net-pcl" Version="1.8.116" />
   </ItemGroup>
   <ItemGroup>
     <None Remove="Models\" />
@@ -23,6 +24,8 @@
     <None Remove="Views\ExtensionsViews\" />
     <None Remove="Views\HomeViews\" />
     <None Remove="MvvmLightLibs" />
+    <None Remove="sqlite-net-pcl" />
+    <None Remove="Models\Data\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Models\" />
@@ -31,5 +34,6 @@
     <Folder Include="Views\AccessViews\" />
     <Folder Include="Views\ExtensionsViews\" />
     <Folder Include="Views\HomeViews\" />
+    <Folder Include="Models\Data\" />
   </ItemGroup>
 </Project>
